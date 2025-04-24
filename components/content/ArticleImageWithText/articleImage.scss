@@ -1,0 +1,9 @@
+@use "/assets/styles/variables" as variables;
+
+.article-image {
+  margin-top: variables.$margin-medium;
+  .image-text {
+    font-size: 14px;
+    color: variables.$primary-color;
+  }
+}

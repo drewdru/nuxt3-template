@@ -1,0 +1,72 @@
+globalUndo: Undo
+globalRedo: Redo
+globalConfirm: Confirm
+globalClear: Clear
+PopconfirmPositiveText: Confirm
+PopconfirmNegativeText: Cancel
+CascaderPlaceholder: Please Select
+CascaderLoading: Loading
+CascaderLoadingRequiredMessage1: Please load all 
+CascaderLoadingRequiredMessage2: "'s descendants before checking it."
+DatePickerClear: Clear
+DatePickerNow: Now
+DatePickerConfirm: Confirm
+DatePickerSelectTime: Select Time
+DatePickerSelectDate: Select Date
+DatePickerDatePlaceholder: Select Date
+DatePickerDatetimePlaceholder: Select Date and Time
+DatePickerMonthPlaceholder: Select Month
+DatePickerYearPlaceholder: Select Year
+DatePickerQuarterPlaceholder: Select Quarter
+DatePickerWeekPlaceholder: Select Week
+DatePickerStartDatePlaceholder: Start Date
+DatePickerEndDatePlaceholder: End Date
+DatePickerStartDatetimePlaceholder: Start Date and Time
+DatePickerEndDatetimePlaceholder: End Date and Time
+DatePickerStartMonthPlaceholder: Start Month
+DatePickerEndMonthPlaceholder: End Month
+DatePickerToday: Today
+DataTableCheckTableAll: Select all in the table
+DataTableUncheckTableAll: Unselect all in the table
+DataTableConfirm: Confirm
+DataTableClear: Clear
+LegacyTransferSourceTitle: Source
+LegacyTransferTargetTitle: Target
+TransferSelectAll: Select all
+TransferUnselectAll: Unselect all
+TransferClearAll: Clear
+TransferTotal1: Total
+TransferTotal2: items
+TransferSelected1: ''
+TransferSelected2: items selected
+EmptyDescription: No Data
+SelectPlaceholder: Please Select
+TimePickerPlaceholder: Select Time
+TimePickerPositiveText: OK
+TimePickerNegativeText: Cancel
+TimePickerNow: Now
+TimePickerClear: Clear
+PaginationGoto: Goto
+PaginationSelectionSuffix: page
+DynamicTagsAdd: Add
+LogLoading: Loading
+InputPlaceholder: ''
+InputNumberPlaceholder: ''
+DynamicInputCreate: Create
+ThemeEditorTitle: Theme Editor
+ThemeEditorClearAllVars: Clear All Variables
+ThemeEditorClearSearch: Clear Search
+ThemeEditorFilterCompName: Filter Component Name
+ThemeEditorFilterVarName: Filter Variable Name
+ThemeEditorImport: Import
+ThemeEditorExport: Export
+ThemeEditorRestore: Reset to Default
+ImageTipPrevious: Previous picture (←)
+ImageTipNext: Next picture (→)
+ImageTipCounterclockwise: Counterclockwise
+ImageTipClockwise: Clockwise
+ImageTipZoomOut: Zoom out
+ImageTipZoomIn: Zoom in
+ImageTipDownload: Download
+ImageTipClose: Close (Esc)
+ImageTipOriginalSize: Zoom to original size

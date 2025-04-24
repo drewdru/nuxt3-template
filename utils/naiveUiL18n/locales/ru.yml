@@ -1,0 +1,72 @@
+globalUndo: Отменить
+globalRedo: Вернуть
+globalConfirm: Подтвердить
+globalClear: Очистить
+PopconfirmPositiveText: Подтвердить
+PopconfirmNegativeText: Отмена
+CascaderPlaceholder: Выбрать
+CascaderLoading: Загрузка
+CascaderLoadingRequiredMessage1: Загрузите все дочерние узлы
+CascaderLoadingRequiredMessage2: ' прежде чем они станут необязательными'
+DatePickerClear: Очистить
+DatePickerNow: Сейчас
+DatePickerConfirm: Подтвердить
+DatePickerSelectTime: Выбрать время
+DatePickerSelectDate: Выбрать дату
+DatePickerDatePlaceholder: Выбрать дату
+DatePickerDatetimePlaceholder: Выбрать дату и время
+DatePickerMonthPlaceholder: Выберите месяц
+DatePickerYearPlaceholder: Выберите год
+DatePickerQuarterPlaceholder: Выберите квартал
+DatePickerWeekPlaceholder: Select Week
+DatePickerStartDatePlaceholder: Дата начала
+DatePickerEndDatePlaceholder: Дата окончания
+DatePickerStartDatetimePlaceholder: Дата и время начала
+DatePickerEndDatetimePlaceholder: Дата и время окончания
+DatePickerStartMonthPlaceholder: Начало месяца
+DatePickerEndMonthPlaceholder: Конец месяца
+DatePickerToday: Сегодня
+DataTableCheckTableAll: Выбрать все в таблице
+DataTableUncheckTableAll: Отменить все в таблице
+DataTableConfirm: Подтвердить
+DataTableClear: Очистить
+LegacyTransferSourceTitle: Источник
+LegacyTransferTargetTitle: Назначение
+TransferSelectAll: Выбрать все
+TransferUnselectAll: Снять все
+TransferClearAll: Очистить
+TransferTotal1: Всего
+TransferTotal2: элементов
+TransferSelected1: ''
+TransferSelected2: выбрано элементов
+EmptyDescription: Нет данных
+SelectPlaceholder: Выбрать
+TimePickerPlaceholder: Выбрать время
+TimePickerPositiveText: OK
+TimePickerNegativeText: Отменить
+TimePickerNow: Сейчас
+TimePickerClear: Очистить
+PaginationGoto: Перейти
+PaginationSelectionSuffix: страница
+DynamicTagsAdd: Добавить
+LogLoading: Загрузка
+InputPlaceholder: ''
+InputNumberPlaceholder: ''
+DynamicInputCreate: Создать
+ThemeEditorTitle: Редактор темы
+ThemeEditorClearAllVars: Очистить все
+ThemeEditorClearSearch: Очистить поиск
+ThemeEditorFilterCompName: Фильтровать по имени компонента
+ThemeEditorFilterVarName: Фильтровать имена переменных
+ThemeEditorImport: Импорт
+ThemeEditorExport: Экспорт
+ThemeEditorRestore: Сбросить
+ImageTipPrevious: Предыдущее изображение (←)
+ImageTipNext: Следующее изображение (→)
+ImageTipCounterclockwise: Против часовой стрелки
+ImageTipClockwise: По часовой стрелке
+ImageTipZoomOut: Отдалить
+ImageTipZoomIn: Приблизить
+ImageTipDownload: Скачать
+ImageTipClose: Закрыть (Esc)
+ImageTipOriginalSize: Вернуть исходный размер

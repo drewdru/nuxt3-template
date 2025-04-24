@@ -1,0 +1,37 @@
+$background-color: #0f1718;
+$background-color-opacity: rgba(15, 23, 24, 0.9);
+$card-color: #1d252a;
+$primary-color: #c1d37f;
+$secondary-color: #9eb8b7;
+$accent-color: #06bcc1;
+$text-color: #ffffff;
+
+$border-radius: 0.1875rem; 
+$half-width: 50%;
+
+$max-z-index: 999;
+$medium-z-index: 666;
+
+$padding-medium: 1rem;
+$padding-big: 2rem;
+
+$margin-mini: 0.25rem;
+$margin-small: 0.5rem;
+$margin-medium: 1.25rem;
+
+$block-gap: 1.5rem;
+$text-gap: 1rem;
+
+$block-padding: 4rem;
+
+$tablet-min: 768px;
+$tablet-max: 1024px;
+$mobile-min: 320px;
+$mobile-max: 767px;
+$watch-max: 300px;
+
+$tablet-max-grid: 1264px;
+$mobile-max-grid: 864px;
+
+$transition: .3s var(--n-bezier);
+$scale-hover-images: scale(1.1);

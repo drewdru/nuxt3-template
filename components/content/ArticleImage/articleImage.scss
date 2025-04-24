@@ -1,0 +1,6 @@
+@use "/assets/styles/variables" as variables;
+
+.article-image {
+  margin-top: variables.$margin-medium;
+  margin-bottom: variables.$margin-medium;
+}

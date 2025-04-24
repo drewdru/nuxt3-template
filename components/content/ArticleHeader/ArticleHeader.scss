@@ -1,0 +1,14 @@
+@use "/assets/styles/variables" as variables;
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: variables.$margin-medium;
+    text-align: center;
+    .article-header-date {
+        margin-top: 0;
+        font-size: 14px;
+        color: variables.$primary-color;
+    }
+}
