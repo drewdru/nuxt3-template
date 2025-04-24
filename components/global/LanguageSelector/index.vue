@@ -30,12 +30,10 @@ import {
 } from "naive-ui"
 import { Globe } from "@vicons/fa"
 import { getLanguageOptions } from "@/utils/constants/getLanguageOptions"
-import { useLangStore } from "@/stores/lang"
 
 const { t, locale, setLocale } = useI18n()
-const langStore = useLangStore()
 const languageOptions = getLanguageOptions()
-const changeLanguage = (value: string) => {
-  langStore.setLang(value, setLocale)
+const changeLanguage = (value: never) => {
+  setLocale(value)
 }
 </script>
