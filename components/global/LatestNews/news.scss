@@ -1,0 +1,10 @@
+@use "/assets/styles/variables" as variables;
+@use "/assets/styles/mixins" as mixins;
+
+.latest-news {
+  @include mixins.flex-center;
+  flex-direction: column;
+  .latest-news-button {
+    margin-top: variables.$margin-medium;
+  }
+}

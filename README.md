@@ -1,6 +1,7 @@
-# Nuxt Minimal Starter
+# Nuxt3 Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Dependencies
+formkit/auto-animate google-fonts i18n pinia vicons naiveui tailwind
 
 ## Setup
 

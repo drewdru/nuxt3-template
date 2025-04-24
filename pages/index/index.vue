@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 definePageMeta({
-  layout: "landing",
+  layout: "default",
 })
 
 const { t } = useI18n()

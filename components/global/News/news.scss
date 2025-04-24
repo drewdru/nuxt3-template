@@ -1,0 +1,25 @@
+@use "/assets/styles/variables" as variables;
+@use "/assets/styles/mixins" as mixins;
+
+.news {
+  @include mixins.flex-center;
+  flex-direction: column;
+  min-height: 100dvh;
+  .news-grid {
+    gap: variables.$block-gap;
+    .n-card.card-item {
+      width: min-content;
+      &:hover {
+        .n-h {
+          color: variables.$accent-color;
+        }
+      }
+    }
+    .n-card .n-card-cover img {
+      width: 100%;
+    }
+  }
+  .news-pagination {
+    margin: variables.$margin-medium;
+  }
+}

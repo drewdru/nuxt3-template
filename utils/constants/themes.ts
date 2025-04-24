@@ -5,7 +5,7 @@ export const darkThemeOverrides: GlobalThemeOverrides = {
     primaryColor: "#c1d37f",
     bodyColor: "#0f1718",
     primaryColorHover: "#06bcc1",
-    primaryColorPressed: "#06bcc1",
+    primaryColorPressed: "#02ccd1",
     cardColor: "#1d252a",
     popoverColor: "#1d252a",
     textColor1: "#eee9dd",
@@ -18,9 +18,9 @@ export const darkThemeOverrides: GlobalThemeOverrides = {
   Button: {
     fontSizeMedium: "1rem",
     fontSizeLarge: "1rem",
-    colorSecondary: "#9eb8b7",
-    colorSecondaryHover: "#BFA9C2",
-    colorSecondaryPressed: "#8ca1a3",
+    colorSecondary: "#1d252a",
+    colorSecondaryHover: "#2d252a",
+    colorSecondaryPressed: "#183634",
     textColorPrimary: "#0f1718",
   },
   Card: {

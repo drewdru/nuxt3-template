@@ -9,7 +9,10 @@
 }
 html,
 body,
-#__nuxt {
+#__nuxt,
+.n-config-provider,
+.n-layout,
+.layout-content {
   height: 100%;
   background-color: #181818;
   color: variables.$text-color;

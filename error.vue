@@ -125,13 +125,9 @@ import {
 } from "naive-ui"
 import type { NuxtError } from "#app"
 
-definePageMeta({
-  layout: "default",
-})
 const { t } = useI18n()
 
 defineProps({
-
   error: Object as () => NuxtError,
 })
 

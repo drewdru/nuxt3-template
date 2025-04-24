@@ -1,0 +1,44 @@
+@use "/assets/styles/variables" as variables;
+
+.compact-content-card {
+  min-height: 100%;
+  min-width: 24rem;
+  flex-direction: row;
+  @media screen and (max-width: variables.$mobile-max) {
+    min-width: 14rem; 
+  }
+  img {
+    object-fit: cover;
+    opacity: 0.5;
+    transition: variables.$transition;
+  }
+  .compact-content-card-date {
+    font-size: 14px;
+    margin-top: 0;
+    color: variables.$primary-color;
+  }
+  .compact-content-card-header {
+    margin-bottom: 0;
+    margin-top: variables.$margin-medium;
+  }
+  .n-card-cover {
+    width: 50%;
+  }
+  .n-card > .n-card-header .n-card-header__main {
+    .n-h {
+      color: variables.$accent-color;
+    }
+  }
+  &:hover {
+    .n-card-header {
+      .n-card-header__main {
+        .n-h {
+          color: variables.$accent-color;
+        }
+      }
+    }
+    img {
+      opacity: 1;
+    }
+  }
+}

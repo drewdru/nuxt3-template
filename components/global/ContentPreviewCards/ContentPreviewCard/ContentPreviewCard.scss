@@ -1,0 +1,27 @@
+@use "/assets/styles/variables" as variables;
+
+.content-card {
+  min-height: 100%;
+  width: 100%;
+  .content-card-date {
+    font-size: 14px;
+    margin-top: 0;
+    color: variables.$primary-color;
+  }
+  .content-card-header {
+    margin-bottom: 0;
+    margin-top: variables.$margin-medium;
+  }
+  &:hover {
+    .n-card-header {
+      .n-card-header__main {
+        .n-h {
+          color: variables.$accent-color;
+        }
+      }
+    }
+  }
+}
+.loader {
+  margin: variables.$margin-medium;
+}

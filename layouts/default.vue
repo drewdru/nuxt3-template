@@ -1,5 +1,6 @@
 <template>
   <NLayout>
+    <LanguageSelector />
     <div class="layout-content">
       <slot />
     </div>

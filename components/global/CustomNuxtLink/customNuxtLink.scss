@@ -1,0 +1,12 @@
+@use "/assets/styles/variables" as variables;
+
+.link {
+  text-decoration: none; 
+  color: inherit;
+  &.text-link {
+    color: variables.$accent-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
