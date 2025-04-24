@@ -1,4 +1,5 @@
 <i18n locale="en" lang="yaml" src="@/utils/navigationData/locales/en.yml" />
+
 <i18n locale="ru" lang="yaml" src="@/utils/navigationData/locales/ru.yml" />
 
 <template>
@@ -10,8 +11,14 @@
       y-gap="24"
       x-gap="24"
     >
-      <div v-for="item in items" :key="item.id">
-        <div v-if="orientation === 'horizontal'" class="card-wrapper">
+      <div
+        v-for="item in items"
+        :key="item.id"
+      >
+        <div
+          v-if="orientation === 'horizontal'"
+          class="card-wrapper"
+        >
           <ContentPreviewCard
             :link="item.path"
             :image="item.image"
@@ -21,7 +28,10 @@
             :description="item.description"
           />
         </div>
-        <div v-else class="card-wrapper">
+        <div
+          v-else
+          class="card-wrapper"
+        >
           <CompactContentPreviewCard
             :link="item.path"
             :image="item.image"
@@ -34,6 +44,7 @@
     </div>
   </div>
 </template>
+
 <script setup lang="ts">
 // const { t, locale } = useI18n()
 // const localePath = useLocalePath()
@@ -48,9 +59,9 @@ interface CardItem {
   description?: string
 }
 defineProps({
-  // eslint-disable-next-line vue/require-default-prop
+
   orientation: String,
-  // eslint-disable-next-line vue/require-default-prop
+
   items: Array as () => CardItem[],
 })
 </script>

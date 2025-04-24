@@ -1,4 +1,5 @@
 <i18n locale="en" lang="yaml" src="@/utils/navigationData/locales/en.yml" />
+
 <i18n locale="ru" lang="yaml" src="@/utils/navigationData/locales/ru.yml" />
 
 <template>

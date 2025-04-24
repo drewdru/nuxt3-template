@@ -1,4 +1,4 @@
-import { defineContentConfig, defineCollection, z } from '@nuxt/content'
+import { defineContentConfig, defineCollection, z } from "@nuxt/content"
 
 const newsSchema = z.object({
   title: z.string(),
@@ -15,14 +15,14 @@ export default defineContentConfig({
     //   source: '~/content/**/*.md'
     // })
     news_en: defineCollection({
-      type: 'page',
-      source: 'en/news/*.md',
+      type: "page",
+      source: "en/news/*.md",
       schema: newsSchema,
     }),
     news_ru: defineCollection({
-      type: 'page',
-      source: 'ru/news/*.md',
+      type: "page",
+      source: "ru/news/*.md",
       schema: newsSchema,
-    })
-  }
+    }),
+  },
 })

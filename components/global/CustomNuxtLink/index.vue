@@ -1,5 +1,8 @@
 <template>
-  <CustomNuxtLink v-bind="props" class="link">
+  <CustomNuxtLink
+    v-bind="props"
+    class="link"
+  >
     <slot />
   </CustomNuxtLink>
 </template>

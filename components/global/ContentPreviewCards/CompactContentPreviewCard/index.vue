@@ -1,9 +1,16 @@
 <i18n locale="en" lang="yaml" src="@/utils/navigationData/locales/en.yml" />
+
 <i18n locale="ru" lang="yaml" src="@/utils/navigationData/locales/ru.yml" />
 
 <template>
-  <CustomNuxtLink :to="link" class="compact-content-card-link">
-    <NCard class="compact-content-card" size="small">
+  <CustomNuxtLink
+    :to="link"
+    class="compact-content-card-link"
+  >
+    <NCard
+      class="compact-content-card"
+      size="small"
+    >
       <template #cover>
         <NuxtPicture
           v-if="image"
@@ -20,9 +27,11 @@
           >
             {{ t(tag) }}
           </NTag>
-          <NP class="compact-content-card-date">{{
-            format(parseISO(date), 'dd/MM/yyyy')
-          }}</NP>
+          <NP class="compact-content-card-date">
+            {{
+              format(parseISO(date), 'dd/MM/yyyy')
+            }}
+          </NP>
         </NFlex>
         <NH3 class="compact-content-card-header">
           {{ title }}
@@ -31,10 +40,12 @@
     </NCard>
   </CustomNuxtLink>
 </template>
+
 <script setup lang="ts">
 import { NCard, NH3, NP, NTag, NFlex } from "naive-ui"
 import { format, parseISO } from "date-fns"
 import { getTagColor } from "~/utils/navigationData/getTagColor"
+
 const { t } = useI18n()
 defineProps({
   link: {

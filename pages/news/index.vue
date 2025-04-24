@@ -1,4 +1,5 @@
 <i18n locale="en" lang="yaml" src="@/components/global/News/locales/en.yml" />
+
 <i18n locale="ru" lang="yaml" src="@/components/global/News/locales/ru.yml" />
 
 <template>

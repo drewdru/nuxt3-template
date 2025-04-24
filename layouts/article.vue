@@ -18,6 +18,7 @@
 
 <script setup lang="ts">
 import { NLayout } from "naive-ui"
+
 const { locale } = useI18n()
 useHead({
   htmlAttrs: { lang: locale.value },
@@ -25,7 +26,7 @@ useHead({
   meta: [
     {
       name: "keywords",
-      content: 't("Template")',
+      content: "t(\"Template\")",
     },
   ],
 })

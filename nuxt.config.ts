@@ -7,10 +7,7 @@ const isDebug = JSON.parse(process.env.VITE_DEBUG ?? "false")
 const isDebugLogin = JSON.parse(process.env.VITE_DEBUG_LOGIN ?? "false")
 
 export default defineNuxtConfig({
-  compatibilityDate: "2024-11-01",
-  devtools: { enabled: true },
-  ssr: true,
-  
+
   modules: [
     "@bg-dev/nuxt-naiveui",
     "@formkit/auto-animate/nuxt",
@@ -31,8 +28,9 @@ export default defineNuxtConfig({
     "@nuxt/test-utils",
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
-    "nuxt-svgo",    
+    "nuxt-svgo",
   ],
+  ssr: true,
 
   components: [
     {
@@ -41,6 +39,7 @@ export default defineNuxtConfig({
       extensions: ["vue"],
     },
   ],
+  devtools: { enabled: true },
 
   app: {
     head: {
@@ -143,6 +142,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/auth/": { robots: false },
   },
+  compatibilityDate: "2024-11-01",
 
   vite: {
     css: {
@@ -168,11 +168,6 @@ export default defineNuxtConfig({
     },
   },
 
-  tailwindcss: {
-    exposeConfig: true,
-    viewer: true,
-  },
-
   i18n: {
     locales: [
       { code: "en", name: "English" },
@@ -185,7 +180,7 @@ export default defineNuxtConfig({
     },
     bundle: {
       optimizeTranslationDirective: true,
-    }
+    },
   },
 
   naiveui: {
@@ -224,5 +219,10 @@ export default defineNuxtConfig({
   svgo: {
     autoImportPath: false,
     svgo: false,
+  },
+
+  tailwindcss: {
+    exposeConfig: true,
+    viewer: true,
   },
 })
