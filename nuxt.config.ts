@@ -164,6 +164,7 @@ export default defineNuxtConfig({
         indent: 2,
         quotes: "double",
         semi: false,
+        braceStyle: "1tbs",
       },
     },
   },

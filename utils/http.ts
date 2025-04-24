@@ -3,8 +3,7 @@ export const validateResponse = async (response: Response) => {
     let error: object | string
     try {
       error = await response.json()
-    }
-    catch {
+    } catch {
       error = await response.text()
     }
     throw error

@@ -31,8 +31,7 @@ const { historyStartPosition } = storeToRefs(userStore)
 const goBack = () => {
   if (window.history.length - historyStartPosition.value > 0) {
     router.back()
-  }
-  else {
+  } else {
     navigateTo("/")
   }
 }

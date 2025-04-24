@@ -6,8 +6,7 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     try {
       await fetch(window.location.href, { cache: "no-store" })
       window.location.reload()
-    }
-    catch {
+    } catch {
       window.location.reload()
     }
   }
